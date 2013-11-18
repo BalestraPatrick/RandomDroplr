@@ -220,6 +220,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Patrick Balestra";
 				TargetAttributes = {
+					AE399AC817EB8A47000F0CDD = {
+						DevelopmentTeam = VKVDVFQ5UA;
+					};
 					AE399AE917EB8A47000F0CDD = {
 						TestTargetID = AE399AC817EB8A47000F0CDD;
 					};
@@ -406,12 +409,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Giovanni Balestra (AGJ9QSR8V8)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RandomDroplr/RandomDroplr-Prefix.pch";
 				INFOPLIST_FILE = "RandomDroplr/RandomDroplr-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3F5184F0-BB3A-4314-8E4C-F206B7A2F7A9";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,12 +425,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Giovanni Balestra (AGJ9QSR8V8)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RandomDroplr/RandomDroplr-Prefix.pch";
 				INFOPLIST_FILE = "RandomDroplr/RandomDroplr-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3F5184F0-BB3A-4314-8E4C-F206B7A2F7A9";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -82,6 +82,7 @@
     }
     
     [_webView loadRequest:[self buildAnotherRequest]];
+    
 }
 
 - (IBAction)share:(id)sender {
@@ -91,6 +92,11 @@
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+    
+    NSString *jsCall = @"window.find('Page Not Found');";
+    if ([[webView stringByEvaluatingJavaScriptFromString:jsCall] boolValue]) {
+        [self next:nil];
+    }
 }
 
 @end

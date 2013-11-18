@@ -1,7 +1,7 @@
 RandomDroplr
 ============
 
-Just a small iPhone app developed in a few hours for fun from @maxsimbula's idea. The app builds a random 4 characters string to generate a droplr link so every time you click next, you can see a new file. 
+Just a small iPhone app developed in a few hours for fun from <a href="http://www.twitter.com/maxsimbula">@maxsimbula</a>'s idea. The app builds a random 4 characters string to generate a droplr link so every time you click next, you can see a new file. 
 
 Pretty fun (but not always) to see what other people share with this service. 
 
